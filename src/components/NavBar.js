@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Navbar, Nav, NavDropdown, Container } from "react-bootstrap";
+import logo from "../assets/logo3.png"
 
 export const NavBar = () => {
   const [activeLink, setActiveLink] = useState("home");
@@ -27,7 +28,13 @@ export const NavBar = () => {
     <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
       <Container>
         <Navbar.Brand href="#home">
-          <img src={""} alt="Logo" />
+          <img
+            src={logo}
+            alt="Logo"
+            width="50"
+            height="50"
+            className="d-inline-block align-top"
+          />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav">
           <span className="navbar-toggler-icon"></span>
