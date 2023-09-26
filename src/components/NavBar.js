@@ -1,7 +1,8 @@
 import { useState, useEffect } from "react";
-import { MDBBtn, MDBIcon } from "mdb-react-ui-kit";
 import { Navbar, Nav, NavDropdown, Container } from "react-bootstrap";
-import logo from "../assets/logo3.png"
+import logo from "../assets/logo3.png";
+import navIcon1 from "../assets/nav-icon1.svg";
+
 
 export const NavBar = () => {
   const [activeLink, setActiveLink] = useState("home");
@@ -83,21 +84,20 @@ export const NavBar = () => {
           </Nav>
           <span className="navbar-text">
             <div className="social-icon">
-              <MDBBtn
-                className="m-1"
-                style={{ backgroundColor: "#0082ca" }}
-                href="#"
-              >
-                <MDBIcon fab icon="linkedin-in" />
-              </MDBBtn>
               <a href="/">
-                <img src={""} alt="" />
+                <img src={navIcon1} alt="" />
               </a>
               <a href="/">
-                <img src={""} alt="" />
+                <img
+                  src={"https://fontawesome.com/icons/github?f=brands&s=solid"}
+                  alt=""
+                />
               </a>
               <a href="/">
-                <img src={""} alt="" />
+                <img
+                  src={" https://fontawesome.com/icons/github?f=brands&s=solid"}
+                  alt=""
+                />
               </a>
             </div>
             {/* <HashLink to="#connect"> */}
