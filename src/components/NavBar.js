@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { MDBBtn, MDBIcon } from "mdb-react-ui-kit";
 import { Navbar, Nav, NavDropdown, Container } from "react-bootstrap";
 import logo from "../assets/logo3.png"
 
@@ -80,6 +81,31 @@ export const NavBar = () => {
               </NavDropdown.Item>
             </NavDropdown> */}
           </Nav>
+          <span className="navbar-text">
+            <div className="social-icon">
+              <MDBBtn
+                className="m-1"
+                style={{ backgroundColor: "#0082ca" }}
+                href="#"
+              >
+                <MDBIcon fab icon="linkedin-in" />
+              </MDBBtn>
+              <a href="/">
+                <img src={""} alt="" />
+              </a>
+              <a href="/">
+                <img src={""} alt="" />
+              </a>
+              <a href="/">
+                <img src={""} alt="" />
+              </a>
+            </div>
+            {/* <HashLink to="#connect"> */}
+            <button className="vvd">
+              <span>Let’s Connect</span>
+            </button>
+            {/* </HashLink> */}
+          </span>
         </Navbar.Collapse>
       </Container>
     </Navbar>
