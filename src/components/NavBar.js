@@ -2,6 +2,8 @@ import { useState, useEffect } from "react";
 import { Navbar, Nav, NavDropdown, Container } from "react-bootstrap";
 import logo from "../assets/logo3.png";
 import navIcon1 from "../assets/nav-icon1.svg";
+import navIcon2 from "../assets/github.svg";
+// import navIcon3 from "../assets/nav-icon3.svg";
 
 
 export const NavBar = () => {
@@ -88,10 +90,7 @@ export const NavBar = () => {
                 <img src={navIcon1} alt="" />
               </a>
               <a href="/">
-                <img
-                  src={"https://fontawesome.com/icons/github?f=brands&s=solid"}
-                  alt=""
-                />
+                <img src={navIcon2} alt="" />
               </a>
               <a href="/">
                 <img
