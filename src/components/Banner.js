@@ -59,8 +59,8 @@ export const Banner = () => {
                 className={isVisible ? "animate__animated animate__fadeIn" : ""}
               > */}
             <span className="tagline">Welcome to my Portfolio</span>
-            {/* <h1>
-                  {`Hi! I'm Judy`}{" "}
+            <h1>
+                  {`Hi! I'm Ope `}{" "}
                   <span
                     className="txt-rotate"
                     dataPeriod="1000"
@@ -68,7 +68,7 @@ export const Banner = () => {
                   >
                     <span className="wrap">{text}</span>
                   </span>
-                </h1> */}
+                </h1>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
