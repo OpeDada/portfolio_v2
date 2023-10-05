@@ -1,3 +1,4 @@
+import { Container, Row, Col } from "react-bootstrap";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
@@ -21,5 +22,20 @@ export const Skills = () => {
       items: 1,
     },
   };
-  return <></>;
+  return (
+    <section className="skill" id="skills">
+      <Container>
+        <Row>
+          <Col>
+          <div className="skill-bx">
+            <h2>
+              Skills
+            </h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi, quae eligendi qui natus, sapiente accusantium fuga architecto dolorem maiores quasi, vel quas officiis inventore! Omnis doloremque soluta impedit delectus corporis?</p>
+          </div>
+          </Col>
+        </Row>
+      </Container>
+    </section>
+  )
 };
