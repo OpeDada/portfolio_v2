@@ -32,6 +32,12 @@ export const Skills = () => {
               Skills
             </h2>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi, quae eligendi qui natus, sapiente accusantium fuga architecto dolorem maiores quasi, vel quas officiis inventore! Omnis doloremque soluta impedit delectus corporis?</p>
+          <Carousel responsive={responsive} infinite={true} className="skill-slider">
+            <div className="item">
+              <img src={""} alt="carousel" />
+              <h5>Web Development</h5>
+            </div>
+          </Carousel>
           </div>
           </Col>
         </Row>
