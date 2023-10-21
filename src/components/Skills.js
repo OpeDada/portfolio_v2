@@ -5,7 +5,6 @@ import "react-multi-carousel/lib/styles.css";
 export const Skills = () => {
   const responsive = {
     superLargeDesktop: {
-      // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 3000 },
       items: 5,
     },
@@ -33,6 +32,18 @@ export const Skills = () => {
             </h2>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi, quae eligendi qui natus, sapiente accusantium fuga architecto dolorem maiores quasi, vel quas officiis inventore! Omnis doloremque soluta impedit delectus corporis?</p>
           <Carousel responsive={responsive} infinite={true} className="skill-slider">
+            <div className="item">
+              <img src={""} alt="carousel" />
+              <h5>Web Development</h5>
+            </div>
+            <div className="item">
+              <img src={""} alt="carousel" />
+              <h5>Web Development</h5>
+            </div>
+            <div className="item">
+              <img src={""} alt="carousel" />
+              <h5>Web Development</h5>
+            </div>
             <div className="item">
               <img src={""} alt="carousel" />
               <h5>Web Development</h5>
