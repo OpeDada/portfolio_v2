@@ -1,4 +1,6 @@
 import { Container, Row, Col, Nav, Tab } from "react-bootstrap";
+import { ProjectCard } from "./ProjectCard";
+import colorSharp2 from "../assets/color-sharp2.png"
 
 export const Projects = () => {
   const projects = [
@@ -53,7 +55,10 @@ export const Projects = () => {
                   {
                     projects.map((project, index) => {
                       return (
-                        <p>{project.title}</p>
+                        <ProjectCard
+                          key={index}
+                          {...project}
+                        />
                       )
                     })
                   }
@@ -66,6 +71,7 @@ export const Projects = () => {
           </Col>
         </Row>
       </Container>
+      <img className="background-image-right" src={colorSharp2} alt="bgimg"/>
     </section>
   );
 };
