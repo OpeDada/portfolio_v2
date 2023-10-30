@@ -35,7 +35,7 @@ export const Projects = () => {
               {({ isVisible }) => (
                 <div
                   className={
-                    isVisible ? "animate__animated animate__fadeIn" : ""
+                    isVisible ? "animate__animated animate__slideInUp" : ""
                   }
                 >
                   <h2>Projects</h2>
@@ -101,7 +101,11 @@ export const Projects = () => {
           </Col>
         </Row>
       </Container>
-      <img className="background-image-right" src={colorSharp2} alt="bg-img"></img>
+      <img
+        className="background-image-right"
+        src={colorSharp2}
+        alt="bg-img"
+      ></img>
     </section>
   );
-}
+};
