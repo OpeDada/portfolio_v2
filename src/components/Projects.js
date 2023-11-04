@@ -1,9 +1,9 @@
 import { Container, Row, Col, Nav, Tab } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import colorSharp2 from "../assets/color-sharp2.png";
-import projImg1 from "../assets/project-img1.png";
-import projImg2 from "../assets/project-img2.png";
-import projImg3 from "../assets/project-img3.png";
+import colorSharp2 from "../assets/images/color-sharp2.png";
+import projImg1 from "../assets/images/project-img1.png";
+import projImg2 from "../assets/images/project-img2.png";
+import projImg3 from "../assets/images/project-img3.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 
