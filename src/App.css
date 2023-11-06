@@ -20,9 +20,16 @@ body {
   font-weight: 400;
   overflow-x: hidden;
   position: relative;
-  background-color: #121212;
   color: #fff;
   font-family: "Centra", sans-serif !important;
+}
+
+#light {
+  background-color: #fff;
+}
+
+#dark{
+  background-color: #121212;
 }
 
 h1,
