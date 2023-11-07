@@ -7,6 +7,7 @@ import { Footer } from './components/Footer';
 import "bootstrap/dist/css/bootstrap.min.css";
 import './App.css';
 import { createContext, useState } from 'react';
+import ReactSwitch from 'react-switch';
 
 export const ThemeContext = createContext(null)
 
