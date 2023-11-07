@@ -20,7 +20,7 @@ body {
   font-weight: 400;
   overflow-x: hidden;
   position: relative;
-  color: #fff;
+  /* color: #fff; */
   font-family: "Centra", sans-serif !important;
 }
 
@@ -34,10 +34,22 @@ body {
 
 .switch {
   display: flex;
-  /* width: 100vw;
-  height: 100px; */
-  justify-content: right;
+  width: 100vw;
+  height: 100px;
+  justify-content: center;
   align-items: center;
+}
+
+.switch label {
+  margin: 10px;
+}
+
+#light .switch label {
+  color: black;
+}
+
+#dark .switch label {
+  color: white;
 }
 
 h1,
