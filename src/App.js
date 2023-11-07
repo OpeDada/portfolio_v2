@@ -22,8 +22,7 @@ function App() {
         <NavBar />
       <div className="App" id={theme}>
         <div className="switch">
-          {/* <label> {theme === "light" ? "Light Mode" : "Dark Mode"}</label> */}
-          <ReactSwitch onChange={toggleTheme} checked={theme === "dark"} />
+          {/* <ReactSwitch onChange={toggleTheme} checked={theme === "dark"} /> */}
         </div>
         <Banner />
         <Skills />
