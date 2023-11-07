@@ -21,6 +21,9 @@ function App() {
     <ThemeContext.Provider value={{ theme, toggleTheme}}>
       <div className="App" id={theme}>
         <NavBar />
+        <div className='switch'>
+          <ReactSwitch  />
+        </div>
         <Banner />
         <Skills />
         <Projects />

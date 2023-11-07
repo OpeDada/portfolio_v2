@@ -32,6 +32,14 @@ body {
   background-color: #121212;
 }
 
+.switch {
+  display: flex;
+  /* width: 100vw;
+  height: 100px; */
+  justify-content: right;
+  align-items: center;
+}
+
 h1,
 h2,
 h3,
