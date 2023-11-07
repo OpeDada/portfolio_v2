@@ -12,11 +12,12 @@ nav.navbar {
 .switch {
   display: flex;
   width: 100vw;
-  height: 100px;
-  justify-content: center;
+  height: 50px;
+  justify-content: right;
   align-items: center;
-  position: absolute;
-  z-index: 1;
+  position: relative;
+  z-index: 9999;
+  padding-right: 16px;
 }
 
 .switch label {
@@ -54,6 +55,7 @@ nav.navbar .navbar-nav a.nav-link.navbar-link.active {
 span.navbar-text {
   display: flex;
   align-items: center;
+  margin-right: 84px;
 }
 .social-icon {
   display: inline-block;
