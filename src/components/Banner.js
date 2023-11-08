@@ -75,15 +75,18 @@ export const Banner = () => {
                     </span>
                   </h1>
                   <h2>Front-end Developer</h2>
-                  <p>
-                    I am passionate about learning and improving my skills to create
-                    high-quality projects, with a keen awareness of how to apply
-                    my knowledge in a fast-paced working environment. I have
-                    previous experience spanning Supply Chain Operations and
-                    Business Development, but now looking for opportunities in
-                    the tech industry to enhance my skills and contribute to
-                    team environments. When I'm not coding, you can find me
-                    dancing, listening to music or watching movies.
+                  <p className="banner-text">
+                    I am passionate about learning and improving my skills to
+                    create high-quality projects, with a keen awareness of how
+                    to apply my knowledge in a fast-paced working environment.{" "}
+                    <br /> I have previous experience spanning Supply Chain
+                    Operations and Business Development, but now looking for
+                    opportunities in the tech industry to enhance my skills and
+                    contribute to team environments.{" "}
+                    <br />
+                      When I'm not coding, you can find me dancing, listening to
+                      music or watching movies.
+
                   </p>
                   <a href="#connect" className="banner-connect">
                     <button onClick={() => console.log("connect")}>
