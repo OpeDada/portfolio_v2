@@ -65,7 +65,7 @@ export const Banner = () => {
                 >
                   {/* <span className="tagline">Welcome to my Portfolio</span> */}
                   <h1>
-                    {`Hi! I'm Ope`}{" "}
+                    {`Hello! I'm Ope`}{" "}
                     <span
                       className="txt-rotate"
                       dataperiod="1000"
@@ -74,12 +74,16 @@ export const Banner = () => {
                       {/* <span className="wrap">{text}</span> */}
                     </span>
                   </h1>
+                  <h2>Front-end Developer</h2>
                   <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book.
+                    I am passionate about learning and improving my skills to create
+                    high-quality projects, with a keen awareness of how to apply
+                    my knowledge in a fast-paced working environment. I have
+                    previous experience spanning Supply Chain Operations and
+                    Business Development, but now looking for opportunities in
+                    the tech industry to enhance my skills and contribute to
+                    team environments. When I'm not coding, you can find me
+                    dancing, listening to music or watching movies.
                   </p>
                   <a href="#connect" className="banner-connect">
                     <button onClick={() => console.log("connect")}>
