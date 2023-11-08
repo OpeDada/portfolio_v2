@@ -5,8 +5,7 @@ import navIcon1 from "../assets/images/nav-icon1.svg";
 import navIcon2 from "../assets/images/github.svg";
 import navIcon3 from "../assets/images/mail.png";
 import { HashLink } from "react-router-hash-link";
-import { BrowserRouter as Router } from "react-router-dom";
-
+import { Link, BrowserRouter as Router } from "react-router-dom";
 
 export const NavBar = () => {
   const [activeLink, setActiveLink] = useState("home");
@@ -91,15 +90,27 @@ export const NavBar = () => {
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="/">
+                <Link
+                  to="https://www.linkedin.com/in/opemipo-dada"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <img src={navIcon1} alt="" />
-                </a>
-                <a href="/">
+                </Link>
+                <Link
+                  to="https://github.com/OpeDada"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <img src={navIcon2} alt="" />
-                </a>
-                <a href="/">
+                </Link>
+                <Link
+                  to="mailto:opedada@gmail.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <img src={navIcon3} alt="" />
-                </a>
+                </Link>
               </div>
               <HashLink to="#connect">
                 <button className="vvd">
