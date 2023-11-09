@@ -82,15 +82,18 @@ export const Banner = () => {
                     <br /> I have previous experience spanning Supply Chain
                     Operations and Business Development, but now looking for
                     opportunities in the tech industry to enhance my skills and
-                    contribute to team environments.{" "}
-                    <br />
-                      When I'm not coding, you can find me dancing, listening to
-                      music or watching movies.
-
+                    contribute to team environments. <br />
+                    When I'm not coding, you can find me dancing, listening to
+                    music or watching movies.
                   </p>
-                  <a href="#connect" className="banner-connect">
-                    <button onClick={() => console.log("connect")}>
-                      Let’s Connect <ArrowRightCircle size={25} />
+                  <a
+                    href="assets/Opemipo_Dada.docx"
+                    className="banner-connect"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <button>
+                      Résumé <ArrowRightCircle size={25} />
                     </button>
                   </a>
                 </div>
