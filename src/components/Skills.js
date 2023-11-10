@@ -14,7 +14,7 @@ export const Skills = () => {
     },
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
-      items: 3,
+      items: 4,
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
@@ -34,19 +34,27 @@ export const Skills = () => {
             <h2>
               Skills
             </h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi, quae eligendi qui natus, sapiente accusantium fuga architecto dolorem maiores quasi, vel quas officiis inventore! Omnis doloremque soluta impedit delectus corporis?</p>
           <Carousel responsive={responsive} infinite={true} className="skill-slider">
             <div className="item">
-              <img src={meter1} alt="carousel" />
-              <h5>Web Development</h5>
+              {/* <img src={meter1} alt="carousel" /> */}
+              <h5>Javascript</h5>
             </div>
             <div className="item">
-              <img src={meter2} alt="carousel" />
-              <h5>UI/UX</h5>
+              {/* <img src={meter2} alt="carousel" /> */}
+              <h5>React</h5>
             </div>
             <div className="item">
-              <img src={meter3} alt="carousel" />
-              <h5>Web Development</h5>
+              {/* <img src={meter3} alt="carousel" /> */}
+              <h5>NextJS</h5>
+            </div>
+            <div className="item">
+              <h5>SQL</h5>
+            </div>
+            <div className="item">
+              <h5>HTML</h5>
+            </div>
+            <div className="item">
+              <h5>CSS</h5>
             </div>
           </Carousel>
           </div>
