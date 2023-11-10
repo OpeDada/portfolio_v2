@@ -51,6 +51,9 @@ export const Skills = () => {
               <h5>SQL</h5>
             </div>
             <div className="item">
+              <h5>Github</h5>
+            </div>
+            <div className="item">
               <h5>HTML</h5>
             </div>
             <div className="item">

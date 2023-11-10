@@ -13,6 +13,7 @@
 .skill h2 {
   font-size: 45px;
   font-weight: 700;
+  margin-bottom: 48px;
 }
 .skill p {
   color: #b8b8b8;
@@ -25,6 +26,7 @@
   width: 80%;
   margin: 0 auto;
   position: relative;
+  padding: 8px;
 }
 .skill-slider .item img {
   width: 50%;
