@@ -45,20 +45,25 @@
 .contact form button {
   font-weight: 700;
   color: #000;
+  border: none;
   background-color: #fff;
   padding: 14px 48px;
   font-size: 18px;
   margin-top: 25px;
-  border-radius: 0;
   position: relative;
-  transition: 0.3s ease-in-out;
+    transition: all 0.4s ease 0s;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
 }
+
 .contact form button span {
   z-index: 1;
   position: relative;
 }
 .contact form button:hover {
   color: #fff;
+  box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75);
+
 }
 .contact form button::before {
   content: "";

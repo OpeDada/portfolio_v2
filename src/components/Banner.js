@@ -1,11 +1,11 @@
-import { useState, useEffect } from "react";
+// import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import headerImg from "../assets/images/header-img.svg";
 import cv from "../assets/cv/Opemipo_Dada.pdf";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
-import { Link, BrowserRouter as Router } from "react-router-dom";
+// import { Link, BrowserRouter as Router } from "react-router-dom";
 
 export const Banner = () => {
   // const [loopNum, setLoopNum] = useState(0);

@@ -26,25 +26,39 @@
   font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   display: block;
 }
+.banner h2 {
+  margin-bottom: 16px;
+}
+
 .banner p {
   color: #b8b8b8;
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
   width: 96%;
-    text-align: left;
+  text-align: left;
 }
 .banner button {
+  border: none;
+  background-color: white;
+  border-radius: 0px 8px;
+  padding: 8px;
   font-weight: 700;
-  font-size: 20px;
-  margin-top: 60px;
+  font-size: 19px;
   letter-spacing: 0.8px;
   display: flex;
   align-items: center;
-  padding: 8px;
+  margin-bottom: 1rem;
+  transition: all 0.4s ease 0s;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+
+  &:hover {
+    box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75);
+  }
 }
 .banner button svg {
   font-size: 25px;
@@ -57,7 +71,7 @@
 }
 .banner img {
   width: 500px;
-  animation: updown 3s linear infinite;
+  animation: updown 5s linear infinite;
 }
 @keyframes updown {
   0% {
@@ -77,4 +91,3 @@
 .banner-connect{
   text-decoration: none;
 }
-
