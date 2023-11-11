@@ -1,7 +1,7 @@
 /************ Skills Css ************/
 .skill {
   padding: 0 0 50px 0;
-  position: relative;
+  position: sticky;
 }
 .skill-bx {
   background: #151515;

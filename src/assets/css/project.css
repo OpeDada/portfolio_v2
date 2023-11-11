@@ -2,8 +2,8 @@
 /************ Projects Css ************/
 .project {
   padding: 80px 0;
-  position: relative;
-  background-color: black;
+  position: sticky;
+  /* background-color: black; */
 }
 .project h2 {
   font-size: 45px;
