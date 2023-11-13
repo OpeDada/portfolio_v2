@@ -77,12 +77,11 @@
   border-radius: 30px;
   overflow: hidden;
   margin-bottom: 24px;
-  width: 100%;
 
 }
 
 .project-img {
-  max-width: 100%;
+  width:100%;
   height: auto;
 }
 
