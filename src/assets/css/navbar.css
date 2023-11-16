@@ -70,6 +70,7 @@ span.navbar-text {
     justify-content: center;
     line-height: 1;
     border: 1px solid rgba(255, 255, 255, 0.5);
+
 }
 .social-icon a::before {
     content: "";
@@ -139,6 +140,7 @@ nav.navbar .navbar-toggler-icon {
   border-bottom: 2px solid #fff;
   transition: all 300ms linear;
   top: -2px;
+    /* margin-right: 180px; */
 }
 nav.navbar .navbar-toggler-icon:focus {
 	border-bottom: 2px solid #fff;
@@ -171,3 +173,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
 nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	border-color: transparent;
 }
+
+
+/* @media only screen and (max-width:400px){
+  nav.navbar {
+    width: 75%;
+  }
+} */
