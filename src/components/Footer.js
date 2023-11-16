@@ -4,6 +4,7 @@ import logo from "../assets/images/logo3.png";
 import navIcon1 from "../assets/images/nav-icon1.svg";
 import navIcon2 from "../assets/images/github.svg";
 import navIcon3 from "../assets/images/mail.png";
+import { Link, BrowserRouter as Router } from "react-router-dom";
 
 export const Footer = () => {
   return (
